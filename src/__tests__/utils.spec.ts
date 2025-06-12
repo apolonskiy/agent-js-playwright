@@ -570,9 +570,7 @@ describe('testing utils', () => {
         testCaseId: '',
       };
 
-      const error = new Error(
-        "Expected property name or '}' in JSON at position 2 (line 1 column 3)",
-      );
+      const error = new Error("Expected property name or '}' in JSON at position 2");
 
       console.error = jest.fn();
 
